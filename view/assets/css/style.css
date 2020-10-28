@@ -13,6 +13,12 @@ body {
 }
 
 /* PRINT STYLE */
+@media print {
+  header {
+    display: none;
+  }
+}
+
 /* @media print {
   header,
   footer,

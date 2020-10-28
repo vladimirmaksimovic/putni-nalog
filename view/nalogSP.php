@@ -5,30 +5,34 @@ include_once 'vars.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title><?=$test_heading?></title>
+  <title><?=$app_heading;?></title>
 </head>
 
 <body>
-	<hr>
-	<p>
-		<center>
-			<h1>Overview</h1>
-			<A HREF="#table0">&#1087;&#1085;</A><br>
-			<A HREF="#table1">&#1087;&#1085;2</A><br>
-
-		</center>
-	</p>
-	<hr>
-	<A NAME="table0">
+  <!-- HEADER SECTION -->
+	<header>
+    <h1><?=$app_heading;?></h1>
+    <!-- NAVBAR SECTION -->
+		<navbar>
+			<a href="#table-01">Прва страна</a><br>
+--><a href="#table-02">Друга страна</a><br>
+    </navbar>
+    <!-- /NAVBAR SECTION -->
+  </header>
+  <!-- /HEADER SECTION -->
+  <br>
+  <hr>
+  <br>
+	<!-- <A NAME="table0">
 		<h1>Sheet 1: <em>&#1087;&#1085;</em></h1>
-	</A>
-	<table cellspacing="0" border="0">
+	</A> -->
+	<table id="table-01" cellspacing="0" border="0">
 		<colgroup span="60" width="21"></colgroup>
 		<tr>
 			<td height="20" align="left" valign=middle>
@@ -3697,10 +3701,12 @@ include_once 'vars.php';
 	</table>
 	<!-- ************************************************************************** -->
 	<hr>
-	<A NAME="table1">
-		<h1>Sheet 2: <em>&#1087;&#1085;2</em></h1>
-	</A>
-	<table cellspacing="0" border="0">
+	<navbar>
+			--><a href="#table-01">Прва страна</a><br>
+<a href="#table-02">Друга страна</a><br>
+    </navbar>
+    <hr>
+	<table id="table-02" cellspacing="0" border="0">
 		<colgroup span="28" width="21"></colgroup>
 		<tr>
 			<td height="20" align="left" valign=middle>

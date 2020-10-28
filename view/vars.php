@@ -1,3 +1,3 @@
 <?php
 
-$test_heading = "Nalog za sluzbeni put";
+$app_heading = "Nalog za sluzbeno putovanje";

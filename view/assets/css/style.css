@@ -1,0 +1,25 @@
+/*** CSS RESET ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GLOBAL STYLES ***/
+body {
+  background-color: chocolate;
+  font-family: "Calibri";
+  font-size: x-small;
+}
+
+/* PRINT STYLE */
+/* @media print {
+  header,
+  footer,
+  form,
+  button {
+    display: none;
+  }
+} */
+
+/*** SECTIONS ***/

@@ -2,6 +2,8 @@
 
 include_once 'vars.php';
 
+$organizacija = isset($_POST['organizacija']) ? $_POST['organizacija'] : "";
+
 ?>
 
 <!DOCTYPE html>
@@ -20,10 +22,34 @@ include_once 'vars.php';
     <h1><?=$app_heading;?></h1>
     <!-- NAVBAR SECTION -->
 		<navbar>
-			<span>--></span>
-			<a href="./nalogSP2.php">Друга страна</a><br>
+			<ul>
+				<li>
+					<a href="./unos_podataka.php">Unos podataka</a>
+				</li>
+				<li>
+					<a href="./nalogSP2.php">Друга страна</a>
+				</li>
+			</ul>
     </navbar>
-    <!-- /NAVBAR SECTION -->
+		<!-- /NAVBAR SECTION -->
+		<br>
+  <hr>
+  <br>
+<!-- FORM SECTION -->
+<form method="POST">
+<label for="naziv-organizacije">Izaberi organizaciju:</label>
+<br>
+<select name="organizacija" id="organizacija">
+  <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+  <option value='OS neko drugi'>OS neko drugi</option>
+  <option value='OS ... neko treci'>OS ... neko treci</option>
+  <input type='submit' value='odaberi'>
+</select>
+<br>
+<p>Odabrali ste opciju: <?php echo $organizacija; ?></p>
+</form>
+<!-- /FORM SECTION -->
+
   </header>
   <!-- /HEADER SECTION -->
   <br>
@@ -164,8 +190,8 @@ include_once 'vars.php';
 			<td colspan=7 align="left" valign=middle>
       <?=$heading_04?>
 			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
+			<td colspan=10 align="left" valign=middle>
+				<?php echo $organizacija; ?>
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -194,7 +220,7 @@ include_once 'vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td align="left" valign=middle>
+			<!-- <td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
@@ -220,7 +246,7 @@ include_once 'vars.php';
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
-			</td>
+			</td> -->
 		</tr>
 		<tr>
 			<td align="left" valign=middle>
@@ -1185,7 +1211,7 @@ include_once 'vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=4 align="left" valign=middle>
-				<font color="#000000"><br></font>
+				Са задатком:
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=24 align="justify" valign=middle><b>
 					<font size=3 color="#000000"><br></font>

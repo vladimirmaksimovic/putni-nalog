@@ -11,19 +11,25 @@ include_once 'vars.php';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title><?=$app_heading;?></title>
+	<title><?=$app_heading;?></title>
 </head>
 
 <body>
   <!-- HEADER SECTION -->
 	<header>
-    <h1><?=$app_heading;?></h1>
+	<h1><?=$app_heading;?></h1>
     <!-- NAVBAR SECTION -->
 		<navbar>
-<span>--></span>
-<a href="./nalogSP1.php">Прва страна</a><br>
+			<ul>
+				<li>
+					<a href="./unos_podataka.php">Unos podataka</a>
+				</li>
+				<li>
+					<a href="./nalogSP1.php">Прва страна</a>
+				</li>
+			</ul>
     </navbar>
-    <!-- /NAVBAR SECTION -->
+		<!-- /NAVBAR SECTION -->
   </header>
   <!-- /HEADER SECTION -->
   <br>

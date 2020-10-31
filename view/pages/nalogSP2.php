@@ -1,6 +1,7 @@
 <?php
 
-include_once 'vars.php';
+// IMPORT VARIABLES
+include_once '../../view/components/vars.php';
 
 ?>
 
@@ -10,24 +11,23 @@ include_once 'vars.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../../view/assets/css/style.css">
 	<title><?=$app_heading;?></title>
 </head>
 
 <body>
+
   <!-- HEADER SECTION -->
 	<header>
-	<h1><?=$app_heading;?></h1>
-    <!-- NAVBAR SECTION -->
+		<h1><?=$app_heading;?></h1>
+
 		<!-- NAVBAR SECTION -->
 		<?php include_once '../../view/components/navbar.php';?>
 		<!-- /NAVBAR SECTION -->
-		<!-- /NAVBAR SECTION -->
+
   </header>
   <!-- /HEADER SECTION -->
-  <br>
-  <hr>
-  <br>
+
 	<table id="table-02" cellspacing="0" border="0">
 		<colgroup span="28" width="21"></colgroup>
 		<tr>

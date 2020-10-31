@@ -1,5 +1,6 @@
 <?php
 
+// IMPORT VARIABLES
 include_once '../../view/components/vars.php';
 
 ?>
@@ -15,25 +16,23 @@ include_once '../../view/components/vars.php';
 </head>
 
 <body>
+
   <!-- HEADER SECTION -->
 	<header>
+
     <h1><?=$app_heading;?></h1>
+
     <!-- NAVBAR SECTION -->
 		<?php include_once '../../view/components/navbar.php';?>
 		<!-- /NAVBAR SECTION -->
-		<br>
-  <hr>
-  <br>
 
-<!-- INPUT COMPONENT -->
-<?php include_once "../../view/components/input_component.php";?>
-<!-- /INPUT COMPONENT -->
+		<!-- INPUT COMPONENT -->
+		<?php include_once "../../view/components/input_component.php";?>
+		<!-- /INPUT COMPONENT -->
 
   </header>
   <!-- /HEADER SECTION -->
-  <br>
-  <hr>
-  <br>
+
 <!-- TABLE SECTION -->
 	<table id="table-01" cellspacing="0" border="0">
 		<colgroup span="60" width="21"></colgroup>
@@ -65,8 +64,8 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
+			<td colspan="4" align="left" valign=middle>
+				<font color="#000000">Република Србија<br></font>
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -146,7 +145,7 @@ include_once '../../view/components/vars.php';
 		</tr>
 		<tr>
 			<td style="border-bottom: 1px solid #000000" colspan=28 rowspan=2 height="40" align="center" valign=middle>
-				<?=$heading_03?>
+				ПУТНИ РАЧУН
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -166,11 +165,11 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td colspan=7 align="left" valign=middle>
-      <?=$heading_04?>
+			<td colspan=9 align="left" valign=middle>
+      ОШ "Светозар Марковић" Краљево
 			</td>
-			<td colspan=10 align="left" valign=middle>
-				<?php echo $organizacija; ?>
+			<td align="left" valign=middle>
+			<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -179,27 +178,6 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
-			</td>
-			<!-- <td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
@@ -225,7 +203,28 @@ include_once '../../view/components/vars.php';
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
-			</td> -->
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
 		</tr>
 		<tr>
 			<td align="left" valign=middle>
@@ -246,10 +245,19 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td colspan=2 align="left" valign=middle>
-      Број
+			<td colspan=4 align="left" valign=middle>
+      Деловодни број:
 			</td>
-			<td style="border-bottom: 1px dotted #000000" colspan=7 align="center" valign=middle>
+			<td style="border-bottom: 1px dotted #000000" colspan=2 align="center" valign=middle>
+				<?php echo $delovodni_broj; ?>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
+				<font color="#000000"><br></font>
+			</td>
+			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
@@ -357,11 +365,11 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td style="border-bottom: 1px dotted #000000" colspan=9 align="center" valign=middle sdnum="1033;1033;M/D/YYYY">
-				<font color="#000000"><br></font>
+			<td align="left" valign=middle colspan=4>
+				Датум завођења:
 			</td>
-			<td align="left" valign=middle>
-				<font color="#000000"><br></font>
+			<td style="border-bottom: 1px dotted #000000" colspan=3 align="center" valign=middle sdnum="1033;1033; YYYY/M/D">
+				<?php echo $datum_naloga ?>
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -431,7 +439,7 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td style="border-top: 1px dotted #000000" colspan=6 align="center" valign=middle>
+			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
 			<td align="left" valign=middle>
@@ -621,11 +629,11 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=4 align="left" valign=middle>
-				<?=$worker?>
+			Радник - ца
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=22 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+				<?php echo $radnik; ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -774,11 +782,11 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=13 align="left" valign=middle>
-        <?=$work_place?>
+			Распоређен - на на послове радног места
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=15 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+					<?php echo $radno_mesto ?>
+			</td>
 		</tr>
 		<tr>
 			<td
@@ -888,20 +896,19 @@ include_once '../../view/components/vars.php';
         <?=$day_of_departure?>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=4 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
-			<td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
-				<font color="#000000">20</font>
-			</td>
-			<td style="border-bottom: 1px dotted #000000" colspan=2 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+				<?php echo $datum_putovanja; ?>
+		</td>
+			<!-- <td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
+			<?php echo date("Y"); ?>
+			</td> -->
+			<td colspan=2 align="center" valign=middle><b>
+			<?php echo date("Y"); ?>
 			<td align="center" valign=middle>
 				<font color="#000000">у</font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=8 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $mesto_putovanja; ?>
+		</td>
 		</tr>
 		<tr>
 			<td align="left" valign=middle>
@@ -1045,7 +1052,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 align="left" valign=middle sdnum="1033;0;@"><b>
-					<font size=3 color="#000000"><br></font>
+			<?php echo $relacija_putovanja; ?>
 				</b></td>
 		</tr>
 		<tr>
@@ -1193,8 +1200,8 @@ include_once '../../view/components/vars.php';
 				Са задатком:
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=24 align="justify" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+					<?php echo $zadatak_l1; ?>
+		</td>
 		</tr>
 		<tr>
 			<td align="left" valign=middle>
@@ -1210,8 +1217,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 rowspan=2 align="justify" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $zadatak_l2; ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -1271,8 +1278,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 rowspan=2 align="justify" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $zadatak_l3; ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -1331,10 +1338,10 @@ include_once '../../view/components/vars.php';
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
 			</td>
-			<td style="border-top: 1px dotted #000000; border-bottom: 1px dotted #000000" colspan=28 rowspan=2 align="justify"
-				valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<td style="border-bottom: 1px dotted #000000" colspan=28 rowspan=2 align="justify"
+				valign=middle>
+				<?php echo $zadatak_l4; ?>
+			</td>
 		</tr>
 		<tr>
 			<td
@@ -1397,8 +1404,8 @@ include_once '../../view/components/vars.php';
 				<?=$vehicle?>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=13 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+					<?php echo $prevozno_sredstvo; ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -1542,8 +1549,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+					<?php echo $prevoz_upis; ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -1688,11 +1695,11 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=20 align="left" valign=middle>
-				<?=$per_diem?>
+			Дневница за ово службено путовање припада у износу од дин.
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=6 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $dnevnica_iznosi ?>
+		</td>
 		</tr>
 		<tr>
 			<td
@@ -1837,17 +1844,17 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=15 align="left" valign=middle>
-				<?=$way_till?>
+			На службеном путу ће се задржати најдаље до:
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=4 align="center" valign=middle sdnum="1033;0;@"><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+				<?php echo $datum_povratka; ?>
+		</td>
 			<td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
-				<font color="#000000">20</font>
+			<?php echo date("Y"); ?>
 			</td>
-			<td style="border-bottom: 1px dotted #000000" colspan=2 align="center" valign=middle><b>
+			<!-- <td colspan=2 align="center" valign=middle><b>
 					<font size=3 color="#000000"><br></font>
-				</b></td>
+				</b></td> -->
 			<td colspan=3 align="center" valign=middle>
 				<font color="#000000">године,</font>
 			</td>
@@ -1934,7 +1941,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=28 rowspan=3 align="justify" valign=middle>
-				<?=$way_till_02?>
+			а у року од 48 часова по повратку са службеног пута и доласку на посао, поднеће писмени извештај о обављеном службеном послу. Рачун о учињеним путним трошковима поднети у року од три дана.
 			</td>
 		</tr>
 		<tr>
@@ -2270,7 +2277,7 @@ include_once '../../view/components/vars.php';
       Путни трошкови падају на терет:
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=15 align="center" valign=middle>
-				<font color="#000000"><br></font>
+				<?php echo $putni_troskovi_l1 ?>
 			</td>
 		</tr>
 		<tr>
@@ -2379,7 +2386,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=11 rowspan=2 align="center" valign=bottom>
-				<?=$place_date?>
+			У ................................... дана ...................... 20
 			</td>
 			<td style="border-top: 1px solid #000000; border-right: 1px solid #000000" colspan=16 rowspan=2 align="center"
 				valign=bottom>
@@ -2398,8 +2405,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $putni_troskovi_l2 ?>
+		</td>
 		</tr>
 		<tr>
 			<td style="border-left: 1px solid #000000" height="20" align="left" valign=middle>
@@ -2569,8 +2576,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $putni_troskovi_l3 ?>
+		</td>
 		</tr>
 		<tr>
 			<td height="20" align="left" valign=middle>
@@ -2580,7 +2587,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-top: 1px solid #000000" colspan=26 align="center" valign=middle>
-				<?=$confirmation_01?>
+			Потврђујем да је путовање извршено према овом налогу и одобравам исплату путног
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -2681,7 +2688,7 @@ include_once '../../view/components/vars.php';
 		</tr>
 		<tr>
 			<td colspan=6 height="20" align="left" valign=bottom>
-				<?=$confirmation_02?>
+			рачуна од динара
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=8 align="center" valign=middle>
 				<font color="#000000"><br></font>
@@ -2711,8 +2718,8 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=28 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+			<?php echo $putni_troskovi_l4 ?>
+		</td>
 		</tr>
 		<tr>
 			<td style="border-bottom: 1px dotted #000000" colspan=14 height="20" align="center" valign=bottom>
@@ -2856,11 +2863,11 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=17 align="left" valign=middle>
-				<?=$payment_approval?>
+			Одобравам исплату аконтације у износу од динара
 			</td>
 			<td style="border-bottom: 1px dotted #000000" colspan=9 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td>
+					<?php echo $akontacija; ?>
+		</td>
 		</tr>
 		<tr>
 			<td colspan=7 height="20" align="center" valign=bottom>
@@ -3105,7 +3112,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=6 rowspan=2 align="center" valign=middle>
-				<?=$amount?>
+			дин. ..........................
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>
@@ -3147,7 +3154,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 			<td colspan=6 rowspan=2 align="center" valign=middle>
-      <?=$amount?>
+      дин. ..........................
 			</td>
 			<td align="left" valign=middle>
 				<font color="#000000"><br></font>

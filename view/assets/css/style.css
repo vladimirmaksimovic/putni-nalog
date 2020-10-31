@@ -49,4 +49,5 @@ navbar {
 /*** INPUT SECTION ***/
 .input-component {
   display: flex;
+  justify-content: center;
 }

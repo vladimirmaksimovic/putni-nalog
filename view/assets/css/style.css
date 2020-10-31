@@ -45,3 +45,8 @@ navbar {
 }
 
 /*** SECTIONS ***/
+
+/*** INPUT SECTION ***/
+.input-component {
+  display: flex;
+}

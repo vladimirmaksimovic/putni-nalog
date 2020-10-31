@@ -1,4 +1,4 @@
 <?php
 
-header("Location: ./view/nalogSP1.php");
+header("Location: ./view/pages/nalogSP1.php");
 exit;

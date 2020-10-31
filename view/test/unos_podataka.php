@@ -27,7 +27,7 @@ $akontacija = isset($_POST['akontacija']) ? $_POST['akontacija'] : "";
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?=$app_heading;?></title>
   <style>
-    main {
+    .input-section {
       display: flex;
     }
   </style>
@@ -50,7 +50,9 @@ $akontacija = isset($_POST['akontacija']) ? $_POST['akontacija'] : "";
 		<!-- /NAVBAR SECTION -->
 </header>
 <!-- /HEADER -->
-<main>
+
+<!-- INPUT SECTION -->
+<section class="input-section">
 
   <form method="POST">
 
@@ -113,7 +115,7 @@ $akontacija = isset($_POST['akontacija']) ? $_POST['akontacija'] : "";
   <br>
 
   <!-- NA SLUZBENOM PUTU KORISTI PREVOZNO SREDSTVO -->
-  <label for="prevozno-sredstvo">Zadatak sluzbenog puta:</label>
+  <label for="prevozno-sredstvo">Prevozno sredstvo:</label>
   <input type="text" name="prevozno-sredstvo" id="prevozno-sredstvo">
   <!-- /NA SLUZBENOM PUTU KORISTI PREVOZNO SREDSTVO -->
 
@@ -169,7 +171,8 @@ $akontacija = isset($_POST['akontacija']) ? $_POST['akontacija'] : "";
     <li>Putni troskovi padaju na teret: <?php echo $putni_troskovi ?></li>
     <li>Odabrava se akontacija u iznosu: <?php echo $akontacija ?></li>
   </ul>
-</main>
+</section>
+<!-- /INPUT SECTION -->
 
 </body>
 </html>

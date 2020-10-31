@@ -1,8 +1,6 @@
 <?php
 
-include_once 'vars.php';
-
-$organizacija = isset($_POST['organizacija']) ? $_POST['organizacija'] : "";
+include_once '../../view/components/vars.php';
 
 ?>
 
@@ -12,7 +10,7 @@ $organizacija = isset($_POST['organizacija']) ? $_POST['organizacija'] : "";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../../view/assets/css/style.css">
   <title><?=$app_heading;?></title>
 </head>
 
@@ -21,34 +19,15 @@ $organizacija = isset($_POST['organizacija']) ? $_POST['organizacija'] : "";
 	<header>
     <h1><?=$app_heading;?></h1>
     <!-- NAVBAR SECTION -->
-		<navbar>
-			<ul>
-				<li>
-					<a href="./unos_podataka.php">Unos podataka</a>
-				</li>
-				<li>
-					<a href="./nalogSP2.php">Друга страна</a>
-				</li>
-			</ul>
-    </navbar>
+		<?php include_once '../../view/components/navbar.php';?>
 		<!-- /NAVBAR SECTION -->
 		<br>
   <hr>
   <br>
-<!-- FORM SECTION -->
-<form method="POST">
-<label for="naziv-organizacije">Izaberi organizaciju:</label>
-<br>
-<select name="organizacija" id="organizacija">
-  <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
-  <option value='OS neko drugi'>OS neko drugi</option>
-  <option value='OS ... neko treci'>OS ... neko treci</option>
-  <input type='submit' value='odaberi'>
-</select>
-<br>
-<p>Odabrali ste opciju: <?php echo $organizacija; ?></p>
-</form>
-<!-- /FORM SECTION -->
+
+<!-- INPUT COMPONENT -->
+<?php include_once "../../view/components/input_component.php";?>
+<!-- /INPUT COMPONENT -->
 
   </header>
   <!-- /HEADER SECTION -->

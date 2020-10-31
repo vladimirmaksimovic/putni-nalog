@@ -19,16 +19,9 @@ include_once 'vars.php';
 	<header>
 	<h1><?=$app_heading;?></h1>
     <!-- NAVBAR SECTION -->
-		<navbar>
-			<ul>
-				<li>
-					<a href="./unos_podataka.php">Unos podataka</a>
-				</li>
-				<li>
-					<a href="./nalogSP1.php">Прва страна</a>
-				</li>
-			</ul>
-    </navbar>
+		<!-- NAVBAR SECTION -->
+		<?php include_once '../../view/components/navbar.php';?>
+		<!-- /NAVBAR SECTION -->
 		<!-- /NAVBAR SECTION -->
   </header>
   <!-- /HEADER SECTION -->

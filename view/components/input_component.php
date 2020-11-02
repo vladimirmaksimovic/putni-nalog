@@ -56,8 +56,6 @@ $zaposleni = [
 
     <!-- /NAZIV ORGANIZACIJE -->
 
-    <br>
-
     <!-- DELOVODNI BROJ -->
     <label for="delovodni-broj">Delovodni broj:</label>
     <input type="text" name="delovodni-broj" id="delovodni-broj" maxlength="4" size="4" required>

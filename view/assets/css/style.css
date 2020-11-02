@@ -7,10 +7,10 @@
 
 /*** GLOBAL STYLES ***/
 body {
-  background-color: rgb(236, 224, 215);
+  background-color: #f1f1f1;
   font-family: "Calibri";
   font-size: x-small;
-  color: #000;
+  color: #3b3b3b;
 }
 
 h1,
@@ -42,6 +42,32 @@ h6 {
 navbar {
   display: flex;
   justify-content: center;
+  background-color: #3b3b3b;
+  color: #f1f1f1;
+}
+
+navbar ul {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+navbar li {
+  list-style-type: none;
+  padding: 1rem auto;
+  font-size: 1.5rem;
+}
+
+navbar a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+navbar a:hover {
+  color: #a4c2fa;
+}
+.nav-items-separator {
+  margin: 0 8px;
 }
 
 /*** SECTIONS ***/
@@ -50,4 +76,5 @@ navbar {
 .input-component {
   display: flex;
   justify-content: center;
+  background-color: #a4c2fa;
 }

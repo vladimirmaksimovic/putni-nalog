@@ -78,3 +78,8 @@ navbar a:hover {
   justify-content: center;
   background-color: #a4c2fa;
 }
+
+/*** TABLE COMPONENT ***/
+td {
+  height: 15px;
+}

@@ -1,3 +1,6 @@
+@import "grid-container-left.css";
+@import "grid-container-right.css";
+
 /*** CSS RESET ***/
 * {
   box-sizing: border-box;

@@ -91,3 +91,21 @@ table {
 td {
   height: 15px;
 }
+
+/*** GRID CONTAINER ***/
+.grid-container {
+  width: 297mm;
+  height: 210mm;
+
+  /* border: 1px solid #000; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item-container {
+  width: 148.5mm;
+  height: 210mm;
+
+  /* border: 1px solid #000; */
+}

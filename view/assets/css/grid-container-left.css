@@ -42,103 +42,142 @@
 }
 
 .grid-container-left > div {
-  border: 1px solid #000;
+  display: flex;
+}
+
+span {
+  margin: auto;
 }
 
 .podnosim-sledeci {
   grid-area: podnosim-sledeci;
+  text-align: center;
 }
 
 .putni-racun {
   grid-area: putni-racun;
+  text-align: center;
 }
 
 .dnevnica {
   grid-area: dnevnica;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .dan-odlaska {
   grid-area: dan-odlaska;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .br-cas {
   grid-area: br-cas;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .br-dnev {
   grid-area: br-dnev;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .prazno-iznad {
   grid-area: prazno-iznad;
+  border: 1px solid #000;
 }
 
 .po-dinara {
   grid-area: po-dinara;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .svega-dinara {
   grid-area: svega-dinara;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .dan-povratka {
   grid-area: dan-povratka;
+  border: 1px solid #000;
 }
 
 .ispod-br-cas {
   grid-area: ispod-br-cas;
+  border: 1px solid #000;
 }
 
 .ispod-br-dnev {
   grid-area: ispod-br-dnev;
+  border: 1px solid #000;
 }
 
 .prazno-ispod {
   grid-area: prazno-ispod;
+  border: 1px solid #000;
 }
 
 .sire-po-dinar {
   grid-area: sire-po-dinar;
+  border: 1px solid #000;
 }
 
 .uze-po-dinara {
   grid-area: uze-po-dinara;
+  border: 1px solid #000;
 }
 
 .svega-din-sire {
   grid-area: svega-din-sire;
+  border: 1px solid #000;
 }
 
 .svega-din-uze {
   grid-area: svega-din-uze;
+  border: 1px solid #000;
 }
 
 .prazno-ispod-dnev {
   grid-area: prazno-ispod-dnev;
+  border: 1px solid #000;
 }
 
 .od {
   grid-area: od;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .do {
   grid-area: do;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza {
   grid-area: vrsta-prevoza;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .kl {
   grid-area: kl;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .dinara {
   grid-area: dinara;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .svega-din-prazno {
   grid-area: svega-din-prazno;
+  border: 1px solid #000;
 }
 
 .pranzo-sve {
@@ -147,294 +186,373 @@
 
 .prevozni-tros {
   grid-area: prevozni-tros;
+  border: 1px solid #000;
 }
 
 .od-1 {
   grid-area: od-1;
+  border: 1px solid #000;
 }
 
 .do-1 {
   grid-area: do-1;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-1 {
   grid-area: vrsta-prevoza-1;
+  border: 1px solid #000;
 }
 
 .kl-1 {
   grid-area: kl-1;
+  border: 1px solid #000;
 }
 
 .din-sire-1 {
   grid-area: din-sire-1;
+  border: 1px solid #000;
 }
 
 .din-uze-1 {
   grid-area: din-uze-1;
+  border: 1px solid #000;
 }
 
 .od-2 {
   grid-area: od-2;
+  border: 1px solid #000;
 }
 
 .do-2 {
   grid-area: do-2;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-2 {
   grid-area: vrsta-prevoza-2;
+  border: 1px solid #000;
 }
 
 .kl-2 {
   grid-area: kl-2;
+  border: 1px solid #000;
 }
 
 .din-sire-2 {
   grid-area: din-sire-2;
+  border: 1px solid #000;
 }
 
 .din-uze-2 {
   grid-area: din-uze-2;
+  border: 1px solid #000;
 }
 
 .od-3 {
   grid-area: od-3;
+  border: 1px solid #000;
 }
 
 .do-3 {
   grid-area: do-3;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-3 {
   grid-area: vrsta-prevoza-3;
+  border: 1px solid #000;
 }
 
 .kl-3 {
   grid-area: kl-3;
+  border: 1px solid #000;
 }
 
 .din-sir-3 {
   grid-area: din-sir-3;
+  border: 1px solid #000;
 }
 
 .din-uze-3 {
   grid-area: din-uze-3;
+  border: 1px solid #000;
 }
 
 .od-4 {
   grid-area: od-4;
+  border: 1px solid #000;
 }
 
 .do-4 {
   grid-area: do-4;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-4 {
   grid-area: vrsta-prevoza-4;
+  border: 1px solid #000;
 }
 
 .kl-4 {
   grid-area: kl-4;
+  border: 1px solid #000;
 }
 
 .din-sir-4 {
   grid-area: din-sir-4;
+  border: 1px solid #000;
 }
 
 .din-uze-4 {
   grid-area: din-uze-4;
+  border: 1px solid #000;
 }
 
 .od-5 {
   grid-area: od-5;
+  border: 1px solid #000;
 }
 
 .do-5 {
   grid-area: do-5;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-5 {
   grid-area: vrsta-prevoza-5;
+  border: 1px solid #000;
 }
 
 .kl-5 {
   grid-area: kl-5;
+  border: 1px solid #000;
 }
 
 .din-sir-5 {
   grid-area: din-sir-5;
+  border: 1px solid #000;
 }
 
 .din-uze-5 {
   grid-area: din-uze-5;
+  border: 1px solid #000;
 }
 
 .od-6 {
   grid-area: od-6;
+  border: 1px solid #000;
 }
 
 .do-6 {
   grid-area: do-6;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-6 {
   grid-area: vrsta-prevoza-6;
+  border: 1px solid #000;
 }
 
 .kl-6 {
   grid-area: kl-6;
+  border: 1px solid #000;
 }
 
 .din-sir-6 {
   grid-area: din-sir-6;
+  border: 1px solid #000;
 }
 
 .din-uze-6 {
   grid-area: din-uze-6;
+  border: 1px solid #000;
 }
 
 .od-7 {
   grid-area: od-7;
+  border: 1px solid #000;
 }
 
 .do-7 {
   grid-area: do-7;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-7 {
   grid-area: vrsta-prevoza-7;
+  border: 1px solid #000;
 }
 
 .kl-7 {
   grid-area: kl-7;
+  border: 1px solid #000;
 }
 
 .din-sr-7 {
   grid-area: din-sr-7;
+  border: 1px solid #000;
 }
 
 .din-uze-7 {
   grid-area: din-uze-7;
+  border: 1px solid #000;
 }
 
 .od-8 {
   grid-area: od-8;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .do-8 {
   grid-area: do-8;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .vrsta-prevoza-8 {
   grid-area: vrsta-prevoza-8;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .kl-8 {
   grid-area: kl-8;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .din-sir-8 {
   grid-area: din-sir-8;
+  border: 1px solid #000;
 }
 
 .din-uze-8 {
   grid-area: din-uze-8;
+  border: 1px solid #000;
 }
 
 .ostalo {
   grid-area: ostalo;
+  border: 1px solid #000;
 }
 
 .ostalo-1 {
   grid-area: ostalo-1;
+  border: 1px solid #000;
 }
 
 .din-sir-9 {
   grid-area: din-sir-9;
+  border: 1px solid #000;
 }
 
 .din-uze-9 {
   grid-area: din-uze-9;
+  border: 1px solid #000;
 }
 
 .ostalo-2 {
   grid-area: ostalo-2;
+  border: 1px solid #000;
 }
 
 .ostalo-3 {
   grid-area: ostalo-3;
+  border: 1px solid #000;
 }
 
 .din-sir-10 {
   grid-area: din-sir-10;
+  border: 1px solid #000;
 }
 
 .din-uze-10 {
   grid-area: din-uze-10;
+  border: 1px solid #000;
 }
 
 .din-sir-11 {
   grid-area: din-sir-11;
+  border: 1px solid #000;
 }
 
 .din-uze-11 {
   grid-area: din-uze-11;
+  border: 1px solid #000;
 }
 
 .svega-sire-2 {
   grid-area: svega-sire-2;
+  border: 1px solid #000;
 }
 
 .svega-uze-2 {
   grid-area: svega-uze-2;
+  border: 1px solid #000;
 }
 
 .svega-sire-3 {
   grid-area: svega-sire-3;
+  border: 1px solid #000;
 }
 
 .svega-uze-3 {
   grid-area: svega-uze-3;
+  border: 1px solid #000;
 }
 
 .svega-sire-4 {
   grid-area: svega-sire-4;
+  border: 1px solid #000;
 }
 
 .svega-uze-4 {
   grid-area: svega-uze-4;
+  border: 1px solid #000;
 }
 
 .svega-sire-5 {
   grid-area: svega-sire-5;
+  border: 1px solid #000;
 }
 
 .svega-uze-5 {
   grid-area: svega-uze-5;
+  border: 1px solid #000;
 }
 
 .svega-sire-6 {
   grid-area: svega-sire-6;
+  border: 1px solid #000;
 }
 
 .svega-uze-6 {
   grid-area: svega-uze-6;
+  border: 1px solid #000;
 }
 
 .svega-sire-7 {
   grid-area: svega-sire-7;
+  border: 1px solid #000;
 }
 
 .svega-uze-7 {
   grid-area: svega-uze-7;
+  border: 1px solid #000;
 }
 
 .svega {
   grid-area: svega;
+  text-align: center;
+  border-bottom: 1px solid #000;
 }
 
 .primljena-akontacija {
   grid-area: primljena-akontacija;
+  text-align: center;
+  border-bottom: 1px solid #000;
 }
 
 .prazno-svega-akontacija {
@@ -443,6 +561,8 @@
 
 .ostaje-za-isplatu-uplatu {
   grid-area: ostaje-za-isplatu-uplatu;
+  text-align: center;
+  border-bottom: 1px solid #000;
 }
 
 .broj-priloga {
@@ -451,18 +571,22 @@
 
 .tackice-podnosilac-racuna {
   grid-area: tackice-podnosilac-racuna;
+  border-bottom: 1px dotted;
 }
 
 .podnosilac-racuna {
   grid-area: podnosilac-racuna;
+  text-align: center;
 }
 
 .u-dana {
   grid-area: u-dana;
+  text-align: center;
 }
 
 .u-dana-ispod {
   grid-area: u-dana-ispod;
+  text-align: center;
 }
 
 .potvrdjujem-da-je-putovanje {
@@ -475,46 +599,57 @@
 
 .racuna-od-din {
   grid-area: racuna-od-din;
+  text-align: center;
 }
 
 .tackice-racuna-od-din {
   grid-area: tackice-racuna-od-din;
+  border-bottom: 1px dotted;
 }
 
 .slovima {
   grid-area: slovima;
+  text-align: center;
 }
 
 .slovima-tackice-l1 {
   grid-area: slovima-tackice-l1;
+  border-bottom: 1px dotted;
 }
 
 .na-teret {
   grid-area: na-teret;
+  text-align: center;
 }
 
 .slovima-tackice-l2 {
   grid-area: slovima-tackice-l2;
+  border-bottom: 1px dotted;
 }
 
 .na-teret-tackice {
   grid-area: na-teret-tackice;
+  border-bottom: 1px dotted;
 }
 
 .u {
   grid-area: u;
+  text-align: center;
 }
 
 .u-tackice {
   grid-area: u-tackice;
+  border-bottom: 1px dotted;
 }
 
 .dana {
   grid-area: dana;
+  text-align: center;
 }
 
 .dana-tackice {
   grid-area: dana-tackice;
+  border-bottom: 1px dotted;
 }
 
 .prazno-i1 {
@@ -523,6 +658,7 @@
 
 .likvidirao {
   grid-area: likvidirao;
+  text-align: center;
 }
 
 .prazno-i2 {
@@ -531,10 +667,12 @@
 
 .rukovodilac-racunovodstva {
   grid-area: rukovodilac-racunovodstva;
+  text-align: center;
 }
 
 .nalogodavac {
   grid-area: nalogodavac;
+  text-align: center;
 }
 
 .prazno-i3 {
@@ -547,10 +685,12 @@
 
 .likvidirao-tackice {
   grid-area: likvidirao-tackice;
+  border-bottom: 1px dotted;
 }
 
 .rukovodilac-racunovodstva-tackica {
   grid-area: rukovodilac-racunovodstva-tackica;
+  border-bottom: 1px dotted;
 }
 
 .prazno-i5 {
@@ -559,6 +699,7 @@
 
 .nalogodavac-tackice {
   grid-area: nalogodavac-tackice;
+  border-bottom: 1px dotted;
 }
 
 .prazno-i6 {
@@ -567,26 +708,32 @@
 
 .isplatio {
   grid-area: isplatio;
+  text-align: center;
 }
 
 .naplatio {
   grid-area: naplatio;
+  text-align: center;
 }
 
 .primio {
   grid-area: primio;
+  text-align: center;
 }
 
 .vratio {
   grid-area: vratio;
+  text-align: center;
 }
 
 .din-levo-tackice {
   grid-area: din-levo-tackice;
+  border-bottom: 1px dotted;
 }
 
 .din-desno-tackice {
   grid-area: din-desno-tackice;
+  border-bottom: 1px dotted;
 }
 
 .prazno-izmedju-din {
@@ -595,18 +742,22 @@
 
 .blagajnik-tackice {
   grid-area: blagajnik-tackice;
+  border-bottom: 1px dotted;
 }
 
 .blagajnik {
   grid-area: blagajnik;
+  text-align: center;
 }
 
 .podnosilac-racuna-dole-tackice {
   grid-area: podnosilac-racuna-dole-tackice;
+  border-bottom: 1px dotted;
 }
 
 .podnosilac-racuna-dole {
   grid-area: podnosilac-racuna-dole;
+  text-align: center;
 }
 
 .prazno-dole-zadnje {

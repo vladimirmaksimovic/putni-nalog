@@ -7,66 +7,48 @@
   <link rel="stylesheet" href="./../css/style.css">
   <title>Document</title>
   <style>
-    /*** CSS RESET ***/
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
 
-    /*** BODY ***/
-    body {
-      font-size: 10px;
-    }
-
-    .grid-container {
-      width: 297mm;
-      height: 210mm;
-
-      border: 1px solid #000;
-
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grid-item-container {
-      width: 148.5mm;
-      height: 210mm;
-
-      border: 1px solid #000;
-    }
   </style>
 </head>
 
 <body>
   <div class="grid-container">
     <div class="grid-item-container grid-container-left">
-      <div class="podnosim-sledeci">На основу предњег налога извршио сам службено путовање и подносим следећи</div>
-      <div class="putni-racun">ПУТНИ РАЧУН</div>
-      <div class="dnevnica">Д<br>н<br>е<br>в<br>н<br>и<br>ц<br>e</div>
-      <div class="dan-odlaska">Дан одласка ................ у .......... час.</div>
-      <div class="br-cas">Број час.</div>
-      <div class="br-dnev">Број днев.</div>
+      <div class="podnosim-sledeci"><span>На основу предњег налога извршио сам службено путовање и подносим
+          следећи</span></div>
+      <div class="putni-racun"><span>ПУТНИ РАЧУН</span></div>
+      <div class="dnevnica"><span>Дневнице</span></div>
+      <div class="dan-odlaska">
+        <!-- Дан одласка .......... у ..... час. -->
+      </div>
+      <div class="br-cas">
+        <span>Број час.</span>
+      </div>
+      <div class="br-dnev"><span>Број днев.</span></div>
       <div class="prazno-iznad"></div>
-      <div class="po-dinara">по динара</div>
-      <div class="svega-dinara">СВЕГА ДИНАРА</div>
-      <div class="dan-povratka">Дан повратка ................ у .......... час.</div>
+      <div class="po-dinara"><span>по динара</span></div>
+      <div class="svega-dinara"><span>СВЕГА ДИНАРА</span></div>
+      <div class="dan-povratka">
+        <!-- Дан повратка .......... у ..... час. -->
+      </div>
       <div class="ispod-br-cas"></div>
       <div class="ispod-br-dnev"></div>
       <div class="prazno-ispod"></div>
       <div class="sire-po-dinar"></div>
       <div class="uze-po-dinara"></div>
       <div class="svega-din-sire"></div>
-      <div class="svega-din-uze"></div>
+      <div class="svega-din-uze">
+        <div class="uze"></div>
+      </div>
       <div class="prazno-ispod-dnev"></div>
-      <div class="od">од</div>
-      <div class="do">до</div>
-      <div class="vrsta-prevoza">Врста превоза</div>
-      <div class="kl">кл.</div>
-      <div class="dinara">динара</div>
+      <div class="od"><span>од</span></div>
+      <div class="do"><span>до</span></div>
+      <div class="vrsta-prevoza"><span>Врста превоза</span></div>
+      <div class="kl"><span>кл.</span></div>
+      <div class="dinara"><span>динара</span></div>
       <div class="svega-din-prazno"></div>
       <div class="pranzo-sve"></div>
-      <div class="prevozni-tros">Превозни трошкови</div>
+      <div class="prevozni-tros"><span>Превозни трошкови</span></div>
       <div class="od-1"></div>
       <div class="do-1"></div>
       <div class="vrsta-prevoza-1"></div>
@@ -115,7 +97,7 @@
       <div class="kl-8"></div>
       <div class="din-sir-8"></div>
       <div class="din-uze-8"></div>
-      <div class="ostalo">Остало</div>
+      <div class="ostalo"><span>Остало</span></div>
       <div class="ostalo-1"></div>
       <div class="din-sir-9"></div>
       <div class="din-uze-9"></div>
@@ -137,33 +119,35 @@
       <div class="svega-uze-6"></div>
       <div class="svega-sire-7"></div>
       <div class="svega-uze-7"></div>
-      <div class="svega">Свега</div>
-      <div class="primljena-akontacija">Примљена аконтација</div>
+      <div class="svega"><span>Свега</span></div>
+      <div class="primljena-akontacija"><span>Примљена аконтација</span></div>
       <div class="prazno-svega-akontacija"></div>
-      <div class="ostaje-za-isplatu-uplatu">Остаје за исплату - уплату</div>
-      <div class="broj-priloga">Број прилога: </div>
+      <div class="ostaje-za-isplatu-uplatu"><span>Остаје за исплату - уплату</span></div>
+      <div class="broj-priloga"><span>Број прилога:</span></div>
       <div class="tackice-podnosilac-racuna"></div>
-      <div class="podnosilac-racuna"></div>
-      <div class="u-dana">У ................................... дана ...................... 20 </div>
+      <div class="podnosilac-racuna"><span>(подносилац рачуна)</span></div>
+      <div class="u-dana"><span>У ................................... дана ...................... 20</span></div>
       <div class="u-dana-ispod"></div>
-      <div class="potvrdjujem-da-je-putovanje"></div>
+      <div class="potvrdjujem-da-je-putovanje"><span>Потврђујем да је путовање извршено према овом налогу и одобравам
+          исплату
+          путног</span></div>
       <div class="prazno-u-dana-ispod"></div>
-      <div class="racuna-od-din"></div>
+      <div class="racuna-od-din"><span>рачуна од динара</span></div>
       <div class="tackice-racuna-od-din"></div>
-      <div class="slovima"></div>
+      <div class="slovima"><span>Словима:</span></div>
       <div class="slovima-tackice-l1"></div>
-      <div class="na-teret"></div>
+      <div class="na-teret"><span>на терет:</span></div>
       <div class="slovima-tackice-l2"></div>
       <div class="na-teret-tackice"></div>
-      <div class="u"></div>
+      <div class="u"><span>У</span></div>
       <div class="u-tackice"></div>
-      <div class="dana"></div>
+      <div class="dana"><span>, дана</span></div>
       <div class="dana-tackice"></div>
       <div class="prazno-i1"></div>
-      <div class="likvidirao"></div>
+      <div class="likvidirao"><span>Ликвидирао,</span></div>
       <div class="prazno-i2"></div>
-      <div class="rukovodilac-racunovodstva"></div>
-      <div class="nalogodavac"></div>
+      <div class="rukovodilac-racunovodstva"><span>Руководилац рачуноводства,</span></div>
+      <div class="nalogodavac"><span>Налогодавац,</span></div>
       <div class="prazno-i3"></div>
       <div class="prazno-i4"></div>
       <div class="likvidirao-tackice"></div>
@@ -171,70 +155,71 @@
       <div class="prazno-i5"></div>
       <div class="nalogodavac-tackice"></div>
       <div class="prazno-i6"></div>
-      <div class="isplatio"></div>
-      <div class="naplatio"></div>
-      <div class="primio"></div>
-      <div class="vratio"></div>
+      <div class="isplatio"><span>Исплатио</span></div>
+      <div class="naplatio"><span>Наплатио</span></div>
+      <div class="primio"><span>Примио</span></div>
+      <div class="vratio"><span>Вратио</span></div>
       <div class="din-levo-tackice"></div>
       <div class="din-desno-tackice"></div>
       <div class="prazno-izmedju-din"></div>
       <div class="blagajnik-tackice"></div>
-      <div class="blagajnik"></div>
+      <div class="blagajnik"><span>Благајник</span></div>
       <div class="podnosilac-racuna-dole-tackice"></div>
-      <div class="podnosilac-racuna-dole"></div>
+      <div class="podnosilac-racuna-dole"><span>(подносилац рачуна)</span></div>
       <div class="prazno-dole-zadnje"></div>
     </div>
     <div class="grid-item-container grid-container-right">
       <!-- <div class="grid-container"> -->
       <div class="pr-01"></div>
-      <div class="d-01"></div>
-      <div class="d-02"></div>
-      <div class="d-03"></div>
+      <div class="d-01">Република Србија</div>
+      <div class="d-02">ОШ "Светозар Марковић" Краљево</div>
+      <div class="d-03">Деловодни број:</div>
       <div class="d-p-03"></div>
-      <div class="d-04"></div>
+      <div class="d-04">Датум: </div>
       <div class="d-p-04"></div>
       <div class="pr-02"></div>
       <div class="pr-03"></div>
       <div class="pr-04"></div>
-      <div class="d-05"></div>
-      <div class="d-06"></div>
+      <div class="d-05">НАЛОГ ЗА СЛУЖБЕНО ПУТОВАЊЕ</div>
+      <div class="d-06">Радник - ца</div>
       <div class="d-p-06"></div>
       <div class="pr-06"></div>
-      <div class="d-07"></div>
+      <div class="d-07">Распоређен - на на послове радног места</div>
       <div class="d-p-07-l1"></div>
       <div class="d-p-07-l2"></div>
-      <div class="d-08"></div>
+      <div class="d-08">упућује се на службени пут дана:</div>
       <div class="d-p-08"></div>
-      <div class="d-09"></div>
+      <div class="d-09">у</div>
       <div class="d-p-09-l1"></div>
       <div class="d-p-09-l2"></div>
-      <div class="d-10"></div>
+      <div class="d-10">Са задатком: </div>
       <div class="d-p-10-l1"></div>
       <div class="d-p-10-l2"></div>
       <div class="d-p-10-l3"></div>
       <div class="d-p-10-l4"></div>
-      <div class="d-11"></div>
+      <div class="d-11">На службеном путу користи превозно средство</div>
       <div class="d-p-11-l1"></div>
       <div class="d-p-11-l2"></div>
       <div class="pr-07"></div>
-      <div class="d-12"></div>
+      <div class="d-12">Дневница за ово службено путовање припада у износу од дин.</div>
       <div class="d-p-12"></div>
-      <div class="d-13"></div>
+      <div class="d-13">На службеном путу ће се задржати најдаље до:</div>
       <div class="d-p-13"></div>
-      <div class="d-14"></div>
-      <div class="d-15"></div>
-      <div class="d-16"></div>
-      <div class="d-17"></div>
+      <div class="d-14">године,</div>
+      <div class="d-15">а у року од 48 часова по повратку са службеног пута и доласку на посао, поднеће писмени извештај
+        о</div>
+      <div class="d-16">обављеном службеном послу. Рачун о учињеним путним трошковима поднети у року од три дана</div>
+      <div class="d-17">Путни трошкови падају на терет:</div>
       <div class="pr-08"></div>
       <div class="d-p-17-l1"></div>
       <div class="d-p-17-l2"></div>
       <div class="d-p-17-l3"></div>
       <div class="d-p-17-l4"></div>
-      <div class="d-18"></div>
+      <div class="d-18">Одобравам исплату аконтације у износу од динара</div>
       <div class="pr-09"></div>
       <div class="d-p-18"></div>
       <div class="pr-10"></div>
-      <div class="d-19"></div>
+      <div class="d-19">Налогодавац,</div>
       <div class="d-20"></div>
       <div class="pr-11"></div>
       <div class="pr-12"></div>

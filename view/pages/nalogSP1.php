@@ -19,6 +19,10 @@ include_once '../../view/components/vars.php';
 			width: 297mm;
       height: 210mm;
 		}
+
+		#table-01 {
+  		margin: auto;
+		}
 	</style>
 </head>
 
@@ -517,7 +521,7 @@ include_once '../../view/components/vars.php';
 			<td
 				style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000"
 				colspan=10 rowspan=2 align="center" valign=bottom>
-				<?=$arrival?>
+				Дан повратка ................ у .......... час.
 			</td>
 			<td
 				style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000"

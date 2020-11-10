@@ -1,5 +1,5 @@
-@import "grid-container-left.css";
-@import "grid-container-right.css";
+/* @import "grid-container-left.css";
+@import "grid-container-right.css"; */
 
 /*** CSS RESET ***/
 * {
@@ -97,10 +97,11 @@ td {
   width: 297mm;
   height: 210mm;
 
+  margin: auto;
   /* border: 1px solid #000; */
 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
 }
 
 .grid-item-container {

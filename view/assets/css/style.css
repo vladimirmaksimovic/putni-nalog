@@ -1,5 +1,5 @@
-/* @import "grid-container-left.css";
-@import "grid-container-right.css"; */
+@import "grid-container-left-03.css";
+@import "grid-container-right-03.css";
 
 /*** CSS RESET ***/
 * {
@@ -100,8 +100,7 @@ td {
   margin: auto;
   /* border: 1px solid #000; */
 
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
 }
 
 .grid-item-container {

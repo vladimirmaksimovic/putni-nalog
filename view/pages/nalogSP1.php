@@ -3664,8 +3664,23 @@ include_once '../../view/components/vars.php';
 			</td>
 		</tr>
 	</table>
-
 		<!-- /TABLE 01 COMPONENT -->
+
+		<hr>
+
+		<!-- TEMPLATE 03 COMPONENT -->
+		<div class="grid-container">
+
+			<!-- LEFT COMPONENT -->
+			<?php include_once '../../view/components/left_component.php';?>
+			<!-- /LEFT COMPONENT -->
+
+			<!-- RIGHT COMPONENT -->
+			<?php include_once '../../view/components/right_component.php';?>
+			<!-- /RIGHT COMPONENT -->
+
+		</div>
+		<!-- /TEMPLATE 03 COMPONENT -->
 
 	</main>
 	<!-- /MAIN SECTION -->

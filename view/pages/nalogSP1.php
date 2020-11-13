@@ -47,8 +47,7 @@ include_once '../../view/components/vars.php';
 
 		<!-- TABLE 01 COMPONENT -->
 
-
-		<table id="table-01" cellspacing="0" border="0">
+		<!-- <table id="table-01" cellspacing="0" border="0">
 		<colgroup span="60" width="21"></colgroup>
 		<tr>
 			<td height="20" align="left" valign=middle>
@@ -912,9 +911,9 @@ include_once '../../view/components/vars.php';
 			<td style="border-bottom: 1px dotted #000000" colspan=4 align="center" valign=middle>
 				<?php echo $datum_putovanja; ?>
 			</td>
-			<!-- <td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
+			<td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
 			<?php echo date("Y"); ?>
-			</td> -->
+			</td>
 			<td colspan=2 align="center" valign=middle><b>
 			<?php echo date("Y"); ?>
 			<td align="center" valign=middle>
@@ -1866,9 +1865,6 @@ include_once '../../view/components/vars.php';
 			<td colspan=2 align="center" valign=middle sdval="20" sdnum="1033;">
 			<?php echo date("Y"); ?>
 			</td>
-			<!-- <td colspan=2 align="center" valign=middle><b>
-					<font size=3 color="#000000"><br></font>
-				</b></td> -->
 			<td colspan=3 align="center" valign=middle>
 				<font color="#000000">године,</font>
 			</td>
@@ -3663,7 +3659,7 @@ include_once '../../view/components/vars.php';
 				<font color="#000000"><br></font>
 			</td>
 		</tr>
-	</table>
+	</table> -->
 		<!-- /TABLE 01 COMPONENT -->
 
 		<hr>
@@ -3676,11 +3672,23 @@ include_once '../../view/components/vars.php';
 			<!-- /LEFT COMPONENT -->
 
 			<!-- RIGHT COMPONENT -->
-			<?php include_once '../../view/components/right_component.php';?>
+			<?php include '../../view/components/right_component.php';?>
 			<!-- /RIGHT COMPONENT -->
 
 		</div>
 		<!-- /TEMPLATE 03 COMPONENT -->
+
+		<br>
+
+		<div class="grid-container">
+			<!-- LEFT COMPONENT -->
+			<?php include_once '../../view/components/empty_component.php';?>
+				<!-- /LEFT COMPONENT -->
+
+				<!-- RIGHT COMPONENT -->
+				<?php require '../../view/components/right_component.php';?>
+				<!-- /RIGHT COMPONENT -->
+		</div>
 
 	</main>
 	<!-- /MAIN SECTION -->

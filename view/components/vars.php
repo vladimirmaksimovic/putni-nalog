@@ -20,8 +20,8 @@ $confirmation_02 = "рачуна од динара";
 $payment_approval = "Одобравам исплату аконтације у износу од динара";
 $amount = "дин. ..........................";
 
-$zaposleni = [
-    "Ljiljana Orlovic" => "psiholog",
-    "Olga Drbnjak" => "pedagog",
-    "Nevena Martic" => "bibliotekar",
-];
+/* $zaposleni = [
+"Ljiljana Orlovic" => "psiholog",
+"Olga Drbnjak" => "pedagog",
+"Nevena Martic" => "bibliotekar",
+]; */

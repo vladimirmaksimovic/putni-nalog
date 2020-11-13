@@ -1,9 +1,4 @@
-<?php
-
-// IMPORT VARIABLES
-include_once '../../view/components/vars.php';
-
-?>
+<?php require_once '../../view/components/vars.php';?>
 
 <!DOCTYPE html>
 <html lang="sr">
@@ -30,9 +25,15 @@ include_once '../../view/components/vars.php';
 	<!-- MAIN SECTION -->
 	<main>
 
-		<!-- TABLE 02 COMPONENT -->
-		<?php include '../../view/components/table02.php';?>
-		<!-- /TABLE 02 COMPONENT -->
+		<div class="grid-container">
+			<!-- LEFT COMPONENT -->
+			<?php include_once '../../view/components/empty_component.php';?>
+				<!-- /LEFT COMPONENT -->
+
+				<!-- RIGHT COMPONENT -->
+				<?php require_once '../../view/components/right_component.php';?>
+				<!-- /RIGHT COMPONENT -->
+		</div>
 
 	</main>
 	<!-- /MAIN SECTION -->

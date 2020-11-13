@@ -1,4 +1,5 @@
 <?php
+
 /**
  * POKUPI I SMESTI VREDNOSTI POLJA U VARIABLE
  */

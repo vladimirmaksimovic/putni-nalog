@@ -13,7 +13,7 @@
   <div class="dr-08">Радник/ца</div>
   <div class="dr-09"><?php echo $radnik; ?></div>
   <div class="dr-10">Распоређен/а на послове радног места</div>
-  <div class="dr-11"><?php echo $radno_mesto ?></div>
+  <div class="dr-11"><?php echo $radno_mesto; ?></div>
   <div class="dr-12"></div>
   <div class="dr-13">упућује се на службени пут дана:</div>
   <div class="dr-14"><?php echo $datum_putovanja; ?></div>

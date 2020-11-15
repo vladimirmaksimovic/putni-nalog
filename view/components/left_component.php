@@ -2,7 +2,16 @@
   <div class="dl-01">На основу предњег налога извршио сам службено путовање и подносим следећи</div>
   <div class="prl-01"></div>
   <div class="dl-02">ПУТНИ РАЧУН</div>
-  <div class="dl-03"></div>
+  <div class="dl-03">
+    <span>Д</span>
+    <span>н</span>
+    <span>е</span>
+    <span>в</span>
+    <span>н</span>
+    <span>и</span>
+    <span>ц</span>
+    <span>е</span>
+  </div>
   <div class="dl-04">
     <p>Дан одласка .................................. у .................. час.</p>
   </div>
@@ -46,7 +55,21 @@
     <p>динара</p>
   </div>
   <div class="prl-03"></div>
-  <div class="prl-04"></div>
+  <div class="prl-04">
+    <span>П</span>
+    <span>у</span>
+    <span>т</span>
+    <span>н</span>
+    <span>и</span>
+    <span class="word-separation">т</span>
+    <span>р</span>
+    <span>о</span>
+    <span>ш</span>
+    <span>к</span>
+    <span>о</span>
+    <span>в</span>
+    <span>и</span>
+  </div>
   <div class="dl-23"></div>
   <div class="dl-24"></div>
   <div class="dl-25"></div>
@@ -95,7 +118,14 @@
   <div class="dl-68"></div>
   <div class="dl-69"></div>
   <div class="dl-70"></div>
-  <div class="prl-05"></div>
+  <div class="prl-05">
+    <span>О</span>
+    <span>с</span>
+    <span>т</span>
+    <span>а</span>
+    <span>л</span>
+    <span>о</span>
+  </div>
   <div class="dl-71"></div>
   <div class="dl-72"></div>
   <div class="dl-73"></div>

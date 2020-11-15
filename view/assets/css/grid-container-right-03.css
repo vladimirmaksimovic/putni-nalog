@@ -70,6 +70,9 @@
 .dr-04 {
   grid-area: dr-04;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-05 {
@@ -80,11 +83,15 @@
 .dr-06 {
   grid-area: dr-06;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-07 {
   grid-area: dr-07;
   margin: auto;
+  font-size: 1rem;
 }
 
 .prr-03 {
@@ -103,6 +110,9 @@
 .dr-09 {
   grid-area: dr-09;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-10 {
@@ -113,6 +123,9 @@
 .dr-11 {
   grid-area: dr-11;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-12 {
@@ -128,6 +141,9 @@
 .dr-14 {
   grid-area: dr-14;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-15 {
@@ -138,11 +154,17 @@
 .dr-16 {
   grid-area: dr-16;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-17 {
   grid-area: dr-17;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-18 {
@@ -153,21 +175,33 @@
 .dr-19 {
   grid-area: dr-19;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-20 {
   grid-area: dr-20;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-21 {
   grid-area: dr-21;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-22 {
   grid-area: dr-22;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-23 {
@@ -178,11 +212,17 @@
 .dr-24 {
   grid-area: dr-24;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-25 {
   grid-area: dr-25;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .prr-05 {
@@ -197,6 +237,9 @@
 .dr-27 {
   grid-area: dr-27;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-28 {
@@ -207,6 +250,9 @@
 .dr-29 {
   grid-area: dr-29;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-30 {
@@ -236,21 +282,33 @@
 .dr-34 {
   grid-area: dr-34;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-35 {
   grid-area: dr-35;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-36 {
   grid-area: dr-36;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .dr-37 {
   grid-area: dr-37;
   border-bottom: 1px dotted;
+  /* text-align: center; */
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .prr-07 {
@@ -265,6 +323,9 @@
 .dr-39 {
   grid-area: dr-39;
   border-bottom: 1px dotted;
+  text-align: center;
+  align-self: center;
+  font-size: 0.8rem;
 }
 
 .prr-08 {

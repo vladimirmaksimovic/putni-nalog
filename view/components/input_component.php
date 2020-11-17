@@ -1,7 +1,7 @@
 <?php
 
 /**
- * POKUPI I SMESTI VREDNOSTI POLJA U VARIABLE
+ * PICK UP AND CHECK VARIABLES
  */
 
 /* $organizacija = isset($_POST['organizacija']) ? $_POST['organizacija'] : ""; */
@@ -29,21 +29,21 @@ $akontacija = isset($_POST['akontacija']) ? $_POST['akontacija'] : "";
 $zaposleni = isset($_POST['zaposleni']) ? $_POST['zaposleni'] : "";
 
 $zaposleni = [
-    "" => "",
-    "Ljiljana Orlovic" => "psiholog",
-    "Olga Drbnjak" => "pedagog",
-    "Nevena Martic" => "bibliotekar",
+  "" => "",
+  "Љиљана Орловић" => "психолог",
+  "Олга Дробњак" => "педагог",
+  "Невена Мартић" => "библиотекар",
 ];
 
 ?>
 
-<!-- NAVBAR SECTION -->
-<?php include_once '../../view/components/navbar.php';?>
-		<!-- /NAVBAR SECTION -->
+<!-- NAVBAR COMPONENT -->
+<?php include_once '../../view/components/navbar.php'; ?>
+<!-- /NAVBAR COMPONENT -->
 
 <section class="input-component">
 
-    <form method="POST">
+  <form method="POST">
 
     <!-- NAZIV ORGANIZACIJE -->
 
@@ -78,12 +78,12 @@ $zaposleni = [
 
     <label for="zaposleni">Izaberite zaposlenog:</label>
     <select name="zaposleni" id="zaposleni">
-      <?php foreach ($zaposleni as $radnik => $radno_mesto) {?>
-    <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
-      <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
+      <?php foreach ($zaposleni as $radnik => $radno_mesto) { ?>
+        <option value="<?php echo $radnik; ?>"><?php echo $radnik . '->' . $radno_mesto ?></option>
+        <!-- <option value="OS Svetozar Markovic Kraljevo">OS Svetozar Markovic Kraljevo</option>
       <option value='OS neko drugi'>OS neko drugi</option>
       <option value='OS ... neko treci'>OS ... neko treci</option> -->
-      <?php }?>
+      <?php } ?>
     </select>
     <!-- /RADNIK - CA -->
 
@@ -107,7 +107,7 @@ $zaposleni = [
     <label for="mesto-putovanja">Mesto sluzbenog puta:</label>
     <input type="text" name="mesto-putovanja" id="mesto-putovanja">
     <br>
-        ili
+    ili
     <br>
     <label for="relacija-putovanja">Mesto / Relacija:</label>
     <textarea name="relacija-putovanja" id="relacija-putovanja" rows="5">
@@ -190,10 +190,10 @@ $zaposleni = [
     <input type='submit' value='Unesi podatke'>
     <!-- /UNOS PODATAKA U NALOG -->
 
-    </form>
+  </form>
 
   <!-- DISAPLY COMPONENT -->
-  <?php include_once 'display_component.php';?>
+  <?php include_once 'display_component.php'; ?>
   <!-- /DISAPLY COMPONENT -->
 
 </section>
